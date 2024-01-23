@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.about {
+    background-color: #FDD5E0;
+}
+
+.gamer img {
+    height: 350px;
+    width: 350px;
+    margin-top: 5%;
+}
+
+.gamer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-belle h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 32px;
+    color: #5976B2;
+}
+
+.about-belle p {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 350px;
+    margin-right: 350px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #e36193;
+}

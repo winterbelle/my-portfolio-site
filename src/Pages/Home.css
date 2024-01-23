@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.home {
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid blue; */
+    margin-left: 173px;
+    margin-top: 8%;
+    margin-right: 127px;
+}
+
+.dev {
+    /* border: 1px solid black; */
+    display: grid;
+    
+}
+.dev h1 {
+    color: #5976B2;
+    font-family: Oswald;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 65%;
+    text-align: left;
+    /* border: 1px solid brown; */
+    
+}
+
+.dev p {
+    color: #E6729E;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 65%;
+    text-align: left;
+    margin-top: 1px;
+}
+
+.links{
+    display: flex;
+    margin-top: 15px;
+    margin-right: 94%;
+    justify-content: space-between;
+
+    :hover {
+        transform: scale(1.5);
+    }
+}
+
+.links :first-child {
+    width: 31px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.links :last-child {
+    width: 31px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.dev-img {
+    width: 350px;
+    height: 350px;
+    float: right;
+    position: absolute;
+    right: 190px;
+    animation: morph 8s ease-in-out infinite;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #E6729E;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    transition: all 1s ease-in-out;
+}
+
+.tech-stack {
+    margin-top: 7%;
+    display: flex;
+    font-size: 20px;
+}
+
+.tech-stack img {
+    margin-top: 25px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+
