@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+    h1 {
+        margin-top: 5%;
+        color: #5976B2;
+        font-size: 60px;
+    }
+
+    h2 {
+        font-family: Oswald;
+        font-size: 36px;
+        color: #5976B2;
+    }
+}
+.my-projects {
+    margin-right: 65%;
+    margin-left: 10%;
+
+    h4 {
+        font-family: Oswald;
+        font-size: 22px;
+        color: #965fc0;
+    }
+
+    p {
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        color: #E6729E;
+    }
+}
+
+/* .reflections {
+    margin-left: 3px;
+    height: 350px;
+    width: 550px;
+} */
+
+.linked-to {
+    display: flex;
+    justify-content: right;
+    margin-left: 85%;
+    
+    :first-child {
+        height: 25px;
+        width: 25px;
+    }
+
+    :last-child {
+        height: 25px;
+        width: 25px;
+    }
+
+    :hover {
+        transform: scale(1.5);
+    }
+}    
+
+
