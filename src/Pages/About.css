@@ -9,7 +9,7 @@
 .gamer img {
     height: 350px;
     width: 350px;
-    margin-top: 5%;
+    margin-top: 7%;
 }
 
 .gamer {
@@ -36,4 +36,5 @@
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     color: #e36193;
+    margin-bottom: 7%;
 }

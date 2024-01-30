@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.contact {
+    margin-left: 173px;
+    padding: 50px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact h2 {
+    font-family: Oswald;
+    font-size: 36px;
+    color: #5976B2;
+}
+
+.contact p {
+    font-family: Inter;
+    font-size: 18px;
+}
+
+.methods {
+    display: flex;
+    margin-right: 35%;
+    justify-content: space-between;
+}
+
+.methods img {
+    height: 44px;
+    width: 44x;
+    margin-right: -35px;
+}

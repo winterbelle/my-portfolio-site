@@ -1,0 +1,20 @@
+footer {
+    position: relative;
+    background-color: #C5CCF0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Inter;
+    font-size: 18px;
+}
+
+footer img {
+    height: 25px;
+    width: 25px;
+}

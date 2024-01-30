@@ -11,12 +11,14 @@
         margin-top: 5%;
         color: #5976B2;
         font-size: 60px;
+        margin-bottom: 7%;
     }
 
     h2 {
         font-family: Oswald;
         font-size: 36px;
         color: #5976B2;
+        margin-top: 7%;
     }
 }
 .my-projects {

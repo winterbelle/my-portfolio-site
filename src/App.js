@@ -5,6 +5,8 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Projects from './Pages/Projects';
 import Resume from './Pages/Resume';
+import Contact from './Pages/Contact';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
      <br />
      <Resume />
      <br />
+     <Contact />
+     <Footer />
     </div>
   );
 }
