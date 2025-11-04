@@ -4,17 +4,73 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    iframe {
-        width: 1000px;
-        height: 1250px;
-        margin-bottom: 7%;
-    }
+    padding-bottom: 5%;
     
     h2 {
         font-family: Oswald;
         font-size: 36px;
-        color: #5976B2;
+        /* color: #5976B2; */
         margin-top: 7%;
     }
 }
+
+.container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px 40px;
+      background: #F3E8FF;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      border: #f0f0f0 1px solid;
+    }
+header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+header h1 {
+      margin: 0;
+      font-size: 2.2em;
+      color: #111;
+    }
+/* header p a {
+      color: #0073e6;
+      text-decoration: none;
+      margin: 0 8px;
+    } */
+h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      margin-top: 30px;
+      color: #222;
+    }
+ul {
+      padding-left: 20px;
+    }
+.skills {
+  display: grid;
+  grid-template-columns: 200px 1fr; /* fixed label column, flexible content */
+  gap: 8px 20px;
+}
+.skills div {
+  display: contents; /* lets strong + text span grid naturally */
+}
+.skills strong {
+  grid-column: 1;
+}
+.skills div:not(:last-child) {
+  margin-bottom: 5px;
+}
+.section {
+      margin-bottom: 20px;
+    }
+.job {
+      margin-bottom: 15px;
+    }
+.job h3 {
+      margin: 0;
+      font-size: 1.1em;
+      color: #111;
+    }
+.job span {
+      font-size: 0.9em;
+      color: #666;
+    }

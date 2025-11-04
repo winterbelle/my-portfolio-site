@@ -21,9 +21,16 @@
         margin-top: 7%;
     }
 }
+
+
 .my-projects {
-    margin-right: 65%;
-    margin-left: 10%;
+    background-color: #F3E8FF;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 300px; /* fixed width so they align in rows */
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.2s;
 
     h4 {
         font-family: Oswald;
@@ -63,5 +70,12 @@
         transform: scale(1.5);
     }
 }    
+
+#projects-container {
+    display: flex;
+    flex-wrap: wrap; /* allows new rows when more projects are added */
+    justify-content: center; /* centers them horizontally */
+    gap: 40px; /* space between cards */
+}
 
 
