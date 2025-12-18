@@ -1,25 +1,7 @@
 import Belle from '../assets/Belle.jpeg';
-import AI from '../assets/AI.png';
-import BS from '../assets/Bootstrap.png';
-import CSS from '../assets/CSS3.png';
-import Cypress from '../assets/cypress.png';
-import Express from '../assets/expressjs.png';
-import Figma from '../assets/figma.png';
-import Git from '../assets/git.png';
 import GH from '../assets/github.png';
-import Heroku from '../assets/heroku.png';
-import HTML from '../assets/HTML5.png';
-import Jest from '../assets/jest.png';
-import JS from '../assets/js.png';
 import LI from '../assets/linkedin.png'
-import Linux from '../assets/linux.png';
-import Node from '../assets/nodejs.png';
-import PG from '../assets/postgres.png';
-import PM from '../assets/postman.png';
-import PS from '../assets/PS.png';
-import React from '../assets/react.png';
-import TW from '../assets/Tailwind.png';
-import XD from '../assets/XD.png';
+
 import './Home.css'
 
 
