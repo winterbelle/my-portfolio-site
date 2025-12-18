@@ -27,10 +27,14 @@
     background-color: #F3E8FF;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    width: 300px; /* fixed width so they align in rows */
+    width: 300px;
     padding: 20px;
     text-align: left;
     transition: transform 0.2s;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 
     h4 {
         font-family: Oswald;
@@ -52,9 +56,11 @@
 } */
 
 .linked-to {
+    margin-top: auto; /* pushes icons to bottom */
     display: flex;
-    justify-content: right;
-    margin-left: 85%;
+    justify-content: flex-end;
+    gap: 10px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    
     
     :first-child {
         height: 25px;

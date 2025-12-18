@@ -22,7 +22,7 @@ export default function Resume (){
                     <ul>
                         <li>Coursework: OOP, Data Structures, Web Development, Mobile App Development, Database Management, Game Development</li>
                     </ul>
-                    <p><strong>Planned Transfer:</strong> Bachelor of Science in Information Science – <em>CUNY SPS (Expected Spring 2026 Start)</em></p>
+                    <p><strong>Planned Transfer: Bachelor of Science in Information Science</strong> – <em>CUNY School of Professional Studies – Expected Start: Spring 2026</em></p>
                     <p><strong>Software Engineering Fellowship:</strong> Pursuit – <em>Jan 2024</em></p>
                     <p><strong>Certifications:</strong> CompTIA A+, Google IT Support Professional Certificate</p>
                 </section>
@@ -30,11 +30,11 @@ export default function Resume (){
                 <section class="section">
                 <h2>Skills</h2>
                 <div class="skills-list">
-                    <div><strong>Languages:</strong> C++, C#, Java, JavaScript, PHP, Swift, Kotlin, SQL, HTML, CSS</div>
-                    <div><strong>Frameworks/Tools:</strong> React, Node.js, .NET Core, .NET MAUI, Express.js, Bootstrap</div>
-                    <div><strong>Databases:</strong> MySQL, PostgreSQL, SQLite, SQL Server</div>
-                    <div><strong>Development Practices:</strong> REST APIs, Git/GitHub, Agile, Jira</div>
-                    <div><strong>Design & UX/UI:</strong> Figma, Wireframing, Prototyping, Accessibility-first design</div>
+                    <div><strong>Programming Languages:</strong> Python, JavaScript, TypeScript, Swift, C#, Java, C++, PHP, Kotlin</div>
+                    <div><strong>Frameworks and Libraries:</strong> .NET Core, .NET MAUI, SwiftUI, React, Node.js, Express.js, Bootstrap</div>
+                    <div><strong>Databases and Query Languages:</strong> SQL (MySQL, PostgreSQL, SQLite, SQL Server)</div>
+                    <div><strong>Software Engineering Practices:</strong> RESTful API design, Git/GitHub, Agile/Scrum, Jira, MVC architecture, CRUD operations</div>
+                    <div><strong>UI / UX & Product Design:</strong> Figma, wireframing, prototyping, accessibility-first design</div>
                 </div>
                 </section>
 
@@ -79,8 +79,16 @@ export default function Resume (){
                 </section>
                 <section class="section">
                     <h2>Projects</h2>
+                     <div class="job">
+                        <h3>Reflections – MySpace (iOS Mobile App)</h3>
+                        <ul>
+                        <li>Developed an iOS journaling and reflection app as part of the Reflections platform, focused on private emotional check-ins and daily entries.</li>
+                        <li>Implemented SwiftUI-based UI, modular data models, and local state management to support journaling, mood tracking, and reflection prompts.</li>
+                        <li>Designed the app with scalability in mind to support future integration of community and social features.</li>
+                        </ul>
+                    </div>
                     <div class="job">
-                        <h3>FlourSync POS (Team Lead/DB Admin)</h3>
+                        <h3>FlourSync POS — Team Lead / Database Administrator</h3>
                         <ul>
                         <li>Led 4-person team to build cross-platform POS app using C#, .NET MAUI, .NET Core, MySQL</li>
                         <li>Designed schema & REST API for real-time inventory/order tracking, reducing errors by 30%</li>
@@ -88,21 +96,14 @@ export default function Resume (){
                         </ul>
                     </div>
                     <div class="job">
-                        <h3>E-Commerce Website for Local Business (In Progress)</h3>
+                        <h3>Vinny Ten Racing (ECommerce Web Application)</h3>
                         <ul>
-                        <li>Responsive storefront with product catalog, shopping cart, secure checkout using JavaScript, HTML, CSS</li>
-                        <li>Managing client communication and proposals aligned with business goals</li>
-                        <li>Expected to support 100+ SKUs with automated inventory updates</li>
+                        <li>Built a full-stack PHP and MySQL web application featuring user authentication, product catalog, order processing, and admin functionality.</li>
+                        <li>Implemented secure checkout flow using Stripe (test mode) and server-side validation for form handling and transactions.</li>
+                        <li>Applied MVC-style organization, reusable components, and database constraints to ensure data integrity and maintainability.</li>
                         </ul>
                     </div>
-                    <div class="job">
-                        <h3>JobScript (Hackathon Finalist)</h3>
-                        <ul>
-                        <li>Developed “Tinder for Jobs” web app with HTML, CSS, JavaScript, OpenAI API</li>
-                        <li>Implemented resume generator & animated landing page</li>
-                        <li>Finalist among 10 competing teams</li>
-                        </ul>
-                    </div>
+                   
                 </section>
             </div>
         </div>
